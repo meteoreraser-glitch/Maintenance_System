@@ -389,7 +389,7 @@ class _DetailBodyState extends ConsumerState<_DetailBody> {
               // Chat shortcut button
               const SizedBox(height: 8),
               OutlinedButton.icon(
-                onPressed: () => context.push('/tickets/$ticketId/chat'),
+                onPressed: () => context.push('/tickets/${widget.ticket.id}/chat'),
                 icon: const Icon(Icons.chat_bubble_outline),
                 label: const Text('Buka Chat dengan Unit'),
                 style: OutlinedButton.styleFrom(

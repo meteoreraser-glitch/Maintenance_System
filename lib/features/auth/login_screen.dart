@@ -69,7 +69,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                   ),
                   const SizedBox(height: 24),
                   const Text(
-                    'IT Ticketing',
+                    'Maintenance System',
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
